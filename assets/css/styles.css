@@ -1294,7 +1294,7 @@ img {
     height: 340px;
     border-radius: 50%;
     overflow: hidden;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     order: 1;
   }
 
