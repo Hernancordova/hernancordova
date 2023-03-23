@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
+    --container-color: #eceef7ef;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -132,6 +132,10 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.img_perfil{
+  max-width: 92%;
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
@@ -293,7 +297,7 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   overflow: hidden;
   margin-bottom: var(--mb-1);
 }
@@ -428,10 +432,12 @@ img {
   padding: .75rem 1rem;
 }
 
-.button--link{
+.button--link {
+  float: right;
   padding: 0;
   background-color: transparent;
   color: var(--first-color);
+  margin: 5px;
 }
 
 .button--link:hover{
@@ -1138,7 +1144,7 @@ img {
     height: 240px;
     border-radius: 50%;
     overflow: hidden;
-    padding-left: 60px;
+    /* padding-left: 60px; */
     order: 1;
   }
 
@@ -1295,7 +1301,7 @@ img {
     height: 340px;
     border-radius: 50%;
     overflow: hidden;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     order: 1;
   }
 
@@ -1347,10 +1353,6 @@ img {
   
   .services_content{
     /* padding: 6rem 0 2rem 2.5rem; */
-  }
-
-  .sercices_description{
-    margin: 10px;
   }
 
   .services_modal-content{
@@ -1454,4 +1456,15 @@ img {
   }
 
 
+}
+
+.technologies_project{
+  background-color:  var(--body-color);
+  border-radius: 5px;
+  padding: 3px;
+  width: 40%;
+}
+
+.services_description{
+  margin: 8px !important;
 }
