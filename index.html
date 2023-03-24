@@ -14,14 +14,14 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Hernan Cordova</title>
-        <link rel="icon" type="image/jpg" href="assets/img/H.png"> 
+        <link rel="icon" type="image/jpg" href="assets/img/logo.png"> 
 
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <img class="img_logo" src="assets/img/H.png" alt="">
+                <img class="img_logo" src="assets/img/logo.png" alt="">
                 <a href="#home" class="nav_logo">
                     HERNAN CORDOVA
                 </a>
@@ -38,7 +38,7 @@
                             <a href="#skills" class="nav_link">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav_link">Proyectos</a>
+                            <a href="#projects" class="nav_link">Proyectos</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="nav_link">Contactame</a>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="about_buttons">
                         <a href="assets/pdf/HERNAN-CV.pdf" class="button button--flex" download="Hernan Cordova - CV">
-                            Download CV <i class="uil uil-download-alt button_icon"></i>
+                            Descargar CV <i class="uil uil-download-alt button_icon"></i>
                         </a>
                     </div>
                  </div>
@@ -299,11 +299,11 @@
 
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section class="services section" id="projects">
               <h2 class="section__title">Proyectos</h2> 
               <span class="section__subtitle">Trabajos más recientes</span> 
 
-              <div class="services_container container grid">
+              <section class="services_container container grid">
                 <!--============== SERVICES 1 =============-->
                 <div class="services_content">
                     <img src="assets/img/projects/salon_forex.JPG" alt="" class="portfolio_img">
@@ -322,46 +322,53 @@
                 </div>
                 <!--============== SERVICES 2 =============-->
                 <div class="services_content">
-                    <img src="assets/img/portfolio1.jpeg" alt="" class="portfolio_img">
-                    <div class="sercices_description">
+                    <img src="assets/img/projects/chac_peru.JPG" alt="" class="portfolio_img">
+                    <div class="services_description">
                         <div>
-                            <h3 class="services_title">Salon Forex</h3>
+                            <h3 class="services_title">Chac Perú</h3>
                         </div>
+                        <h5>Tecnologias:</h5>
+                        <h5 class="technologies_project"> HTML, CSS Y JS</h5>
+
                         <span class="button button--flex button--small button--link services_button">
-                            Visitar siotio
+                          <a target="_blank" href="https://chac-peru.000webhostapp.com/">Visitar sitio</a>
                             <i class="uil uil-arrow-right button_icon"></i>
                         </span>
                     </div>
                 </div>
                 <!--============== SERVICES 3 =============-->
                 <div class="services_content">
-                    <img src="assets/img/portfolio1.jpeg" alt="" class="portfolio_img">
-                    <div class="sercices_description">
+                    <img src="assets/img/projects/cide_comp.JPG" alt="" class="portfolio_img">
+                    <div class="services_description">
                         <div>
-                            <h3 class="services_title">Ui/Ux <br> Designer</h3>
+                            <h3 class="services_title">Cider Comp</h3>
                         </div>
+                        <h5>Tecnologias:</h5>
+                        <h5 class="technologies_project"> HTML, CSS Y JS</h5>
+
                         <span class="button button--flex button--small button--link services_button">
-                            View More
+                          <a target="_blank" href="https://cetprocidercomp123.000webhostapp.com/">Visitar sitio</a>
                             <i class="uil uil-arrow-right button_icon"></i>
                         </span>
                     </div>
                 </div>
                 <!--============== SERVICES 4 =============-->
                 <div class="services_content">
-                    <img src="assets/img/portfolio1.jpeg" alt="" class="portfolio_img">
-                    <div class="sercices_description">
+                    <img src="assets/img/projects/hotel.JPG" alt="" class="portfolio_img">
+                    <div class="services_description">
                         <div>
-                            <h3 class="services_title">Ui/Ux <br> Designer</h3>
+                            <h3 class="services_title">Hotel</h3>
                         </div>
+                        <h5>Tecnologias:</h5>
+                        <h5 class="technologies_project"> HTML, CSS, JS,  PHP, Laravel</h5>
+
                         <span class="button button--flex button--small button--link services_button">
-                            View More
+                          <a target="_blank" href="https://github.com/qbasac/Hotel01">Ver código</a>
                             <i class="uil uil-arrow-right button_icon"></i>
                         </span>
                     </div>
                 </div>
-              </div>
             </section>
-
             <!--==================== PORTFOLIO ====================-->
             <!-- <section class="portfolio section" id="portfolio">
               <h2 class="section__title">Proyectos</h2>  
@@ -409,7 +416,7 @@
                         </a>
                     </div>
 
-                    <img src="assets/img/home.png" alt="" class="project_img">
+                    <img src="assets/img/new_project.png" alt="" class="project_img">
                 </div>
               </div>
             </section>
@@ -486,10 +493,10 @@
                 </div>
                 <ul class="footer_links">
                     <li>
-                        <a href="#services" class="footer_link">Services</a>
+                        <a href="#about" class="footer_link">Sobre mi</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer_link">Proyectos</a>
+                        <a href="#projects" class="footer_link">Proyectos</a>
                     </li>
                     <li>
                         <a href="#contact" class="footer_link">Cantactame</a>
@@ -507,14 +514,17 @@
                     </a>
                 </div>
             </div>
-            <p class="footer_copy">&#169; Cordova. Todos los derechos reservados</p>
+            <p class="footer_copy">&#169; 2023 copyright todo los derechos reservados</p>
           </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-          <i class="uil uil-arrow-up scrollup_icon"></i>
-        </a>
+
+        <div class="container-redes">
+            <a href="https://api.whatsapp.com/send?phone=+51979820536&text=Hola..." target="_blank">
+                <img src="assets/img/whatsapp1.png" title="Enviar mensaje de WhatsApp" alt="">
+            </a>
+        </div>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
