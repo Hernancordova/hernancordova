@@ -311,7 +311,7 @@ img {
 
 .home_subtitle{
   font-size: var(--h3-font-size);
-  color: var(--text-color);
+  color: var(--first-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
@@ -403,6 +403,10 @@ img {
   border-radius: .5rem;
   font-weight: var(--font-medium);
   cursor: pointer;
+}
+
+.btn_contact{
+  margin-bottom: 1rem;
 }
 
 .button:hover{
@@ -1505,3 +1509,4 @@ img {
 .container-redes a:hover img{
     background: rgba(0,0,0,0.10);
 }
+
